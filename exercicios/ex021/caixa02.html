@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        * {
+            margin: 2px 0px 0px 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+        }
+
+        header {
+            width: 500px;
+            background-color: cornsilk;
+            padding: 7px 0px 10px 5px;
+            border-radius: 15px;
+            margin: auto;
+            border: solid 1.5px rgb(172, 13, 39);
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        }
+
+        header:hover {
+            background-color:  rgb(172, 13, 39);
+            color: white;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        header > nav > a {
+            text-align: left;
+            color: blue;
+            font: bold 1.3em Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        header > nav > a:hover {
+            color: rgb(233, 55, 84);
+            text-decoration: underline;
+        }
+
+
+
+        main {
+            text-align: justify;
+            background-color: cornsilk;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+            text-indent: 20px;
+            height: 600px;
+            border: solid 1.5px rgb(172, 13, 39);
+            font-weight: bold;
+        }
+
+        main > article > h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main > article > aside {
+            margin-top: 20px;
+        }
+
+        main:hover {
+            background-color: rgb(172, 13, 39);
+            color: white;
+        }
+
+        footer {
+            margin-top: 420px;
+            text-align: center;
+            background-color: cornsilk;
+            padding: 6px;
+        }
+
+        footer:hover {
+            background-color: rgb(172, 13, 39);
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+
+        </section>
+        <article>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum repellat necessitatibus recusandae aliquam sequi velit porro laborum officiis? Cupiditate, est saepe! Laboriosam aperiam ea magnam adipisci perferendis non, rem praesentium.</p>
+            <aside>
+                <p>Artigo escrito por José Da Silva</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por José Manuel &copy;</p>
+    </footer>
+</body>
+</html>
