@@ -6,13 +6,9 @@
     padding: 0px;
 }
 
-body, html {
-    background-color: lightgray;
-}
+body, html {background-color: lightgray;}
 
-header {
-    background-color: rgb(153, 153, 153)
-}
+header {background-color: rgb(153, 153, 153)}
 
 header > h1 {
     padding: 10px;
@@ -35,9 +31,7 @@ header > h1 {
 
 menu { display: none;}
 
-menu > ul {
-    list-style-type: none;
-}
+menu > ul {list-style-type: none;}
 
 menu > ul > li > a {
     display: block;
@@ -49,9 +43,7 @@ menu > ul > li > a {
     border-top: 2px solid gray;
 }
 
-menu > ul > li > a:hover {
-    background-color: gray;
-}
+menu > ul > li > a:hover {background-color: gray;}
 
 main {
     width: 90vw;
@@ -62,9 +54,7 @@ main {
     margin-top: 10px;
 }
 
-article > h2 {
-    padding-bottom: 20px;
-}
+article > h2 {padding-bottom: 20px;}
 
 article > p {
     text-align: justify;
